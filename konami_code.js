@@ -14,5 +14,3 @@ document.body.addEventListener('keydown', function init(e) {
     index = 0;
   }
 })
-
-
