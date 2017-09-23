@@ -15,4 +15,5 @@ function init(e) {
   }
 }
 
-var event = document.body.addEventListener('keydown', init)
+document.body.addEventListener('keydown', init)
+
