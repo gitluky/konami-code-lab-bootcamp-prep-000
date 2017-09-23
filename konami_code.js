@@ -17,3 +17,5 @@ function eventHandler(e){
     index = 0;
   }
 }
+
+init()
