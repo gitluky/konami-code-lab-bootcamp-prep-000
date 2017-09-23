@@ -10,7 +10,7 @@ function konamiInput(e){
   if (key === code[index]){
     index++;
     if (index === code.length){
-      alert('Konami Code Enabled');
+      window.alert('Konami Code Enabled');
     }
   }
   else {
