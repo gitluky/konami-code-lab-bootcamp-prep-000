@@ -6,7 +6,7 @@ function init() {
 }
 
 function eventHandler(e){
-  const key = parseInt(e.which);
+  const key = parseInt(d.detail || e.which);
   if (key === code[index]){
     index++;
     if (index === code.length){
