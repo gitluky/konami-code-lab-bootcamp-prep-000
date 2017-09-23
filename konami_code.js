@@ -3,7 +3,7 @@ var index = 0;
 
 function init(e) {
   // Write your JavaScript code inside the init() function
-  if (parseInt(e.which) === code[index]){
+  if (parseInt(e.detail || e.which) === code[index]){
     index++;
     if (index === code.length){
       alert('Konami Code Enabled');
